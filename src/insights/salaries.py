@@ -16,7 +16,7 @@ def get_min_salary(path: str) -> int:
     list = read(path)
     salaries_list = []
     for data in list:
-        salary = data["max_salary"]
+        salary = data["min_salary"]
         if salary.isdigit():
             salaries_list.append(int(salary))
     return min(salaries_list)
