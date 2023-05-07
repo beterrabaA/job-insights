@@ -12,10 +12,10 @@ def get_unique_industries(path: str) -> List[str]:
     return industries_list
 
 
-# def filter_by_industry(jobs: List[Dict], industry: str) -> List[Dict]:
-#     data = jobs
-#     filtered_jobs_industry = []
-#     for job in data:
-#         if job["industry"] == industry:
-#             filtered_jobs_industry.append(job)
-#     return filtered_jobs_industry
+def filter_by_industry(jobs: List[Dict], industry: str) -> List[Dict]:
+    data = jobs
+    filtered_jobs_industry = []
+    for job in data:
+        if job["industry"] == industry:
+            filtered_jobs_industry.append(job)
+    return filtered_jobs_industry
