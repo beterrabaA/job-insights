@@ -7,8 +7,9 @@ def get_unique_industries(path: str) -> List[str]:
     industries_list = []
     for industry in list:
         industry_name = industry["industry"]
-        if industry_name not in industries_list:
-            industries_list.append(industry_name)
+        if industry_name != "":
+            if industry_name not in industries_list:
+                industries_list.append(industry_name)
     return industries_list
 
 
