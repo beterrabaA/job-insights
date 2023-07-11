@@ -8,3 +8,8 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 - quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
 - quais arquivos/pastas foram desenvolvidos pela Trybe.
 -->
+## Arquivos desenvolvidos por mim:
+- ./src/insights/industries.py
+- ./src/insights/jobs.py
+- ./src/insights/salaries.py
+- ./tests/counter/test_counter.py
